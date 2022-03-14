@@ -1,21 +1,33 @@
-/*GEN*/
 *{
     margin: 0;
     padding: 0;
-}
-
-a {
-    text-decoration: none;
-}
-
-li {
-    list-style: none;
+    font-size: 18px;
 }
 
 .navbar {
-    display: flex;
     align-items: right;
     justify-content: space-between;
     background-color: #886EFF;
     color: #FFFFFF;
+    padding: 0 0.8rem;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+
+.navbar a:hover {
+    background-color: #F5C569;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 1rem 1.5rem;
 }
