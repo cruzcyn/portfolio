@@ -1,8 +1,9 @@
 /*COLOUR PALETTE:
 Raisin Black: #272932
-Magenta Dye: #C60F7B
+Pink: #FC6399;
 Persian Green: #1B998B
 Mustard: #FFDD4A
+Yellow (alternative to Mustard): #F7CA18
 Snow: #FFFBFA*/
 
 *{
@@ -23,7 +24,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    border: 5px dotted #C60F7B;
+    border-bottom: 5px dotted #FC6399;
 }
 
 .menu {
@@ -34,13 +35,13 @@ body {
 
 .navbar a {
     text-decoration: none;
-    color: #FFFBFA;
+    color: #FFD700;
     font-size: 1.5rem;
     font-family: "Playfair Display", serif;
 }
 
 .navbar a:hover {
-    background-color: #FFDD4A;
+    background-color: #FFD700;
 }
 
 .navbar li {
@@ -53,7 +54,7 @@ h1 {
     font-size: 8rem;
     font-family: "Playfair Display", serif;
     font-style: italic;
-    color: #C60F7B;
+    color: #FC6399;
     text-align: center;
     margin: 15rem 5rem;
 }
