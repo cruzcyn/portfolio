@@ -17,35 +17,33 @@ body {
 
 /*NAV BAR*/
 
-.navbar {
+.c-navbar {
     background-color: #272932;
-    padding: 0 0.8rem;
     position: fixed;
     top: 0;
     width: 100%;
-    border-bottom: 5px dotted #FC6399;
+    border-bottom: 3px dotted #FC6399;
 }
 
 .menu {
     display: flex;
-    justify-content: right;
-    margin-right: 2rem;
+    justify-content: space-around;
+    margin: 1rem 2rem;
 }
 
-.navbar a {
+.c-navbar a {
     text-decoration: none;
     color: #FFD700;
     font-size: 1.5rem;
     font-family: "Fredoka", sans-serif;
 }
 
-.navbar a:hover {
+.c-navbar a:hover {
     background-color: #FFD700;
 }
 
-.navbar li {
+.c-navbar li {
     list-style: none;
-    margin: 1rem 2rem;
 }
 
 /*HERO PAGE*/
