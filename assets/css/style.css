@@ -33,13 +33,13 @@ body {
 
 .c-navbar a {
     text-decoration: none;
-    color: #FFD700;
+    color: #FC6399;
     font-size: 1.5rem;
     font-family: "Fredoka", sans-serif;
 }
 
 .c-navbar a:hover {
-    background-color: #FFD700;
+    color: #FFD700;
 }
 
 .c-navbar li {
@@ -48,10 +48,18 @@ body {
 
 /*HERO PAGE*/
 h1 {
-    font-size: 8rem;
+    font-size: 10rem;
     font-family: "Fredoka", sans-serif;
     font-weight: 500;
     color: #FC6399;
-    text-align: center;
-    margin: 15rem 5rem;
+    text-align: right;
+    margin-top: 15rem;
+}
+
+.hero-sub {
+    font-size: 3rem;
+    font-family: "Quicksand", sans-serif;
+    color: #FFFBFA;
+    text-align: right;
+    margin-bottom: 15rem;
 }
