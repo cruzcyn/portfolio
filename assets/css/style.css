@@ -12,15 +12,18 @@ Snow: #FFFBFA*/
 }
 
 body {
-    background-color: #FFFBF9;
+    background-color: #272932;
 }
 
 /*NAV BAR*/
 
 .navbar {
-    background-color: #886EFF;
+    background-color: #272932;
     padding: 0 0.8rem;
+    position: fixed;
+    top: 0;
     width: 100%;
+    border: 5px dotted #C60F7B;
 }
 
 .menu {
@@ -31,13 +34,13 @@ body {
 
 .navbar a {
     text-decoration: none;
-    color: #FFFBF9;
+    color: #FFFBFA;
     font-size: 1.5rem;
     font-family: "Playfair Display", serif;
 }
 
 .navbar a:hover {
-    background-color: #F5C569;
+    background-color: #FFDD4A;
 }
 
 .navbar li {
@@ -50,7 +53,7 @@ h1 {
     font-size: 8rem;
     font-family: "Playfair Display", serif;
     font-style: italic;
-    color: #FF5F8A;
+    color: #C60F7B;
     text-align: center;
     margin: 15rem 5rem;
 }
