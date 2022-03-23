@@ -113,6 +113,12 @@ em {
     text-align: center;
 }
 
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
 
 /*FOOTER*/
 footer {
