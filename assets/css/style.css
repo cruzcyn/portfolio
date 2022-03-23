@@ -87,6 +87,16 @@ h1 {
 }
 
 /*ABOUT ME*/
+h2 {
+    font-family: "Fredoka", sans-serif;
+    font-size: 3rem;
+    color: #FFD700;
+}
+
+h2:hover{
+    color: #FC6399;
+}
+
 .about-title {
     margin-top: 5rem;
 }
@@ -94,9 +104,15 @@ h1 {
 .p-text{
     font-family: "Quicksand", sans-serif;
     color: #FFFBFA;
-    font-size: 2rem;
+    font-size: 1.2rem;
     border-radius: 10px;
     padding: 2rem;
+}
+
+em {
+    color: #FC6399;
+    font-size: 1.2rem;
+    font-style: normal;
 }
 
 /*FOOTER*/
