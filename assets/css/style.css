@@ -73,3 +73,22 @@ h1 {
     height: 40%;
     margin-top: 15rem;
 }
+
+/*ABOUT ME*/
+h2 {
+    font-family: "Fredoka", sans-serif;
+    font-size: 4rem;
+    color: #FFD700;
+    margin-left: 2rem;
+}
+
+h2:hover{
+    color: #FC6399;
+}
+
+.p-text{
+    font-family: "Quicksand", sans-serif;
+    color: #FFFBFA;
+    font-size: 2rem;
+    margin-left: 3rem;
+}
