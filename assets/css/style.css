@@ -5,6 +5,8 @@ Green: #019875
 Yellow: #FFD700
 Snow: #FFFBFA*/
 
+/*GENERAL*/
+
 *{
     margin: 0;
     padding: 0;
@@ -13,6 +15,16 @@ Snow: #FFFBFA*/
 
 body {
     background-color: #272932;
+}
+
+h2 {
+    font-family: "Fredoka", sans-serif;
+    font-size: 4rem;
+    color: #FFD700;
+}
+
+h2:hover{
+    color: #FC6399;
 }
 
 /*NAV BAR*/
@@ -75,16 +87,6 @@ h1 {
 }
 
 /*ABOUT ME*/
-h2 {
-    font-family: "Fredoka", sans-serif;
-    font-size: 4rem;
-    color: #FFD700;
-}
-
-h2:hover{
-    color: #FC6399;
-}
-
 .about-title {
     margin-top: 5rem;
 }
