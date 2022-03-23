@@ -92,9 +92,15 @@ h2:hover{
 .p-text{
     font-family: "Quicksand", sans-serif;
     color: #FFFBFA;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     border-radius: 10px;
     padding: 2rem;
+}
+
+em {
+    color: #FC6399;
+    font-size: 1.2rem;
+    font-style: normal;
 }
 
 /*FOOTER*/
