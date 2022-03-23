@@ -93,7 +93,24 @@ h2:hover{
     font-family: "Quicksand", sans-serif;
     color: #FFFBFA;
     font-size: 2rem;
-    background-color: rgba(255, 251, 250, 0.1);
     border-radius: 10px;
     padding: 2rem;
+}
+
+/*FOOTER*/
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3.5rem;
+    background-color: #FC6399;
+    margin-top: 3rem;
+}
+
+.footer-text {
+    color: #272932;
+    font-family: "Fredoka", sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0.5rem 0;
 }
