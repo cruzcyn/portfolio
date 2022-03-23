@@ -85,6 +85,10 @@ h2:hover{
     color: #FC6399;
 }
 
+.about-title {
+    margin-top: 5rem;
+}
+
 .p-text{
     font-family: "Quicksand", sans-serif;
     color: #FFFBFA;
