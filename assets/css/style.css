@@ -15,16 +15,8 @@ Snow: #FFFBFA*/
 
 body {
     background-color: #272932;
-}
-
-h2 {
-    font-family: "Fredoka", sans-serif;
-    font-size: 4rem;
-    color: #FFD700;
-}
-
-h2:hover{
-    color: #FC6399;
+    color: #FFFBFA;
+    font-family: "Quicksand", sans-serif;
 }
 
 /*NAV BAR*/
@@ -74,8 +66,6 @@ h1 {
 
 .hero-sub {
     font-size: 3rem;
-    font-family: "Quicksand", sans-serif;
-    color: #FFFBFA;
     text-align: right;
     margin-bottom: 15rem;
 }
@@ -93,7 +83,7 @@ h2 {
     color: #FFD700;
 }
 
-h2:hover{
+h2:hover {
     color: #FC6399;
 }
 
@@ -101,9 +91,7 @@ h2:hover{
     margin-top: 5rem;
 }
 
-.p-text{
-    font-family: "Quicksand", sans-serif;
-    color: #FFFBFA;
+.p-text {
     font-size: 1.2rem;
     border-radius: 10px;
     padding: 2rem;
@@ -114,6 +102,17 @@ em {
     font-size: 1.2rem;
     font-style: normal;
 }
+
+/*SKILLS*/
+.skills-title {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.skills-text {
+    text-align: center;
+}
+
 
 /*FOOTER*/
 footer {
