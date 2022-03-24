@@ -29,11 +29,17 @@ body {
     border-bottom: 3px dotted #FC6399;
 }
 
-.menu {
+.c-navbar ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    vertical-align: baseline;
     margin: 1rem 2rem;
 }
+
+#logo {
+    height: 2rem;
+}
+
 
 .c-navbar a {
     text-decoration: none;
