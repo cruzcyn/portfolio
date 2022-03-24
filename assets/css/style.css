@@ -119,6 +119,33 @@ em {
 
 }
 
+/*PROJECTS*/
+.projects-title{
+    text-align: right;
+    margin: 10rem 5rem 1.5rem;
+}
+
+.card {
+    margin: 1rem;
+    background-color: #272932;
+    border: 2px dotted #FC6399;
+    text-align: end;
+}
+
+.card-title {
+    color: #FC6399;
+    font-size: "Fredoka", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.card-title:hover{
+    color: #FFD700;
+}
+
+.card-text {
+    color: #FFFBFA;
+}
 
 /*FOOTER*/
 footer {
