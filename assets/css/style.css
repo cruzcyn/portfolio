@@ -21,7 +21,10 @@ body {
 
 /*NAV BAR*/
 
-.c-navbar {
+.own-navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #272932;
     position: fixed;
     top: 0;
@@ -29,9 +32,10 @@ body {
     border-bottom: 3px dotted #FC6399;
 }
 
-.c-navbar ul {
+.nav-menu {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     vertical-align: baseline;
     margin: 1rem 2rem;
 }
@@ -40,29 +44,31 @@ body {
     height: 2rem;
 }
 
+.nav-menu li {
+    list-style: none;
+}
 
-.c-navbar a {
+.nav-item a {
     text-decoration: none;
     color: #FC6399;
     font-size: 1.5rem;
     font-family: "Fredoka", sans-serif;
     padding: 0.5rem;
+    margin: 0 5rem;
 }
 
-.c-navbar a:hover {
+.nav-item a:hover {
     color: #FFD700;
     background-color: #FC6399;
     border: 2px solid #FC6399;
     border-radius: 6px;
 }
 
-.c-navbar li {
-    list-style: none;
-}
 
 .hamburger {
     color: #FC6399;
     display: none;
+    margin-right: 2rem;
 }
 
 /*HERO PAGE*/
@@ -192,4 +198,32 @@ footer {
     font-size: 1.5rem;
     text-align: center;
     padding: 0.5rem 0;
+}
+
+/*MEDIA QUERIES FOR DISPLAYS*/
+/*Mobile (considering iPhone 12 Pro for max width: */
+@media only screen and (max-width: 390px) {
+/*NAVBAR*/
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #272932;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-menu:active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
 }
