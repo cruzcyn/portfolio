@@ -60,6 +60,11 @@ body {
     list-style: none;
 }
 
+.hamburger {
+    color: #FC6399;
+    display: none;
+}
+
 /*HERO PAGE*/
 h1 {
     font-size: 10rem;
